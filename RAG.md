@@ -51,4 +51,17 @@ Words
 
 ```
 
+### The real RAG problem
+```
+There is no universally correct chunk size.
+Resume --> Small chunks
+Research paper --> You may want larger chunks 
+Source code --> Normal text chunking can perform poorly.
+You may want:
+ 1: Function-level chunks
+ 2: Class-level chunks
+ 3: Module-level chunks
+
+```
+
 
