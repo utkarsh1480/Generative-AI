@@ -16,5 +16,23 @@ Fine Tuning : You modify the model's learned parameters.
 
 <img width="1299" height="668" alt="Screenshot 2026-09-26 at 11 38 05 PM" src="https://github.com/user-attachments/assets/416c2b71-b4b5-4717-9490-b2280cd64496" />
 
+```JS
+function chunkText(text, chunkSize, overlap) {
+    const chunks = [];
+
+    let start = 0;
+
+    while (start < text.length) {
+        const end = start + chunkSize;
+
+        chunks.push(text.slice(start, end));
+
+        start += chunkSize - overlap;
+    }
+
+    return chunks;
+}
+
+```
 
 
