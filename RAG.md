@@ -35,4 +35,20 @@ function chunkText(text, chunkSize, overlap) {
 
 ```
 
+### Better chunking
+```
+First try:
+
+Paragraph
+   ↓
+If too large
+   ↓
+Sentences
+   ↓
+If still too large
+   ↓
+Words
+
+```
+
 
