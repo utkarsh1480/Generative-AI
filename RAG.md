@@ -1,4 +1,4 @@
-<img width="1264" height="583" alt="Screenshot 2026-09-26 at 11 37 46 PM" src="https://github.com/user-attachments/assets/c205e44b-49e6-4ba6-9b4e-3eed02c91cf0" />
+
 
 ### RAG : Instead of asking an LLM to answer only from what it already knows, we first retrieve relevant information and give that information to the LLM as context.
 RAG is not an LLM technique. It is a system architecture.
