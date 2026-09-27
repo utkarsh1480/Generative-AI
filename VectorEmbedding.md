@@ -94,3 +94,44 @@ For some applications, the pattern of preferences may matter more than the
 absolute magnitude.
 This is where cosine similarity becomes useful.
 ```
+
+## Dot Product
+```
+The dot product contains information about both:
+Direction
+Magnitude
+Vectors pointing in similar directions generally produce stronger positive
+alignment.
+The geometric intuition is more important than the arithmetic:
+```
+
+## Cosine Similarity
+```
+Cosine similarity asks: How similar is the direction of these two vectors?
+It focuses heavily on the angle between vectors rather than their absolute size
+```
+```
+1 → same direction
+0 → unrelated / perpendicular directions
+-1 → opposite directions
+```
+## Metric Main Idea Useful Intuition
+```
+Euclidean
+Distance
+Measures straight-line
+distance
+How physically close are the vectors?
+Cosine Similarity
+Measures similarity in
+direction
+Do the vectors represent a similar pattern
+regardless of size?
+Dot Product
+Combines direction and
+magnitude
+Are the vectors aligned, and how strong
+are they?
+The correct choice depends on how the vectors were created and what the
+application is trying to measure
+```
