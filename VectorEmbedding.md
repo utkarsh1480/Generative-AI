@@ -68,5 +68,9 @@ It can work especially well when the embedding space is designed or normalized i
 
 In a vector database, you can explicitly choose L2/Euclidean nearest-neighbor search.
 
-Euclidean distance measures the straight-line distance between two embedding vectors. It is calculated as the square root of the sum of squared differences across all dimensions. In vector search, a smaller Euclidean distance means the vectors are geometrically closer. It is sensitive to vector magnitude, so its behavior can differ from cosine similarity. For normalized vectors, Euclidean distance and cosine similarity produce the same nearest-neighbor ranking."
+Euclidean distance measures the straight-line distance between two embedding vectors.
+It is calculated as the square root of the sum of squared differences across all dimensions.
+In vector search, a smaller Euclidean distance means the vectors are geometrically closer.
+It is sensitive to vector magnitude, so its behavior can differ from cosine similarity.
+For normalized vectors, Euclidean distance and cosine similarity produce the same nearest-neighbor ranking."
 ```
