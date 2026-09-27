@@ -74,3 +74,23 @@ In vector search, a smaller Euclidean distance means the vectors are geometrical
 It is sensitive to vector magnitude, so its behavior can differ from cosine similarity.
 For normalized vectors, Euclidean distance and cosine similarity produce the same nearest-neighbor ranking."
 ```
+ ## Why Direction Can Matter
+ ```
+Consider two user preference vectors:
+User A = [9, 1]
+User B = [90, 10]
+Suppose the dimensions are:
+[action preference, romance preference]
+Vector Embeddings — From First Principles 13
+Coder Army
+Their absolute values are very different.
+But the ratio is identical:
+9 : 1
+90 : 10
+Both users strongly prefer action compared with romance.
+Euclidean distance would say that they are far apart.
+But geometrically their vectors point in the same direction.
+For some applications, the pattern of preferences may matter more than the
+absolute magnitude.
+This is where cosine similarity becomes useful.
+```
